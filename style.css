@@ -6,15 +6,44 @@ body {
 header {
     text-align: center;
     padding: 32px;
-    background-color: aqua;
+    background-color: rgb(86, 130, 130);
     color: white;
 }
 
-section {
-    text-align: center;
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-container {
+    width: 100%;
+    max-width: 300px;
+    margin: 16px auto;
+    padding: 16px;
+    border: 2px solid black;
+}
+
+.task-container {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    margin: 8px auto;
     padding: 32px;
-    margin: 16px;
-    border: 1px solid black;
+    border: 2px solid black;
+}
+
+.task-item {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    margin-bottom: 16px;
+    align-items: center;
+    box-shadow: 2px 2px 4px;
+}
+
+.task-element {
+    margin-right: auto;
 }
 
 input {
