@@ -1,5 +1,5 @@
 import { removeAllData } from "./storage.js";
-import { resetTasks } from "./task.js";
+import { resetTasks, deleteData } from "./task.js";
 
 const addButton = document.querySelector(".add-btn");
 const taskInput = document.querySelector(".task-input");
