@@ -69,6 +69,10 @@ header {
     margin-right: auto;
 }
 
+.remove-btn {
+    margin-top: 16px;
+}
+
 input {
     border: 2px solid #007bff;
     border-radius: 5px;
